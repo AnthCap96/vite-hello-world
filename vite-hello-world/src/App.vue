@@ -1,13 +1,22 @@
 <script>
+
 export default {
   name: `App`,
+
+
+data() {
+  return {
+    message: "Anthony",
+  }
+ },
+ methods: {
+
+ }
 }
 </script>
 
 <template>
-  <div>
-    Ciao
-  </div>
+  <h1>Ciao {{ message }}</h1>
 </template>
 
 <style>
